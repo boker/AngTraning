@@ -1,22 +1,22 @@
 'use strict';
-
-surveyApp.controller('SurveyListcontroller', function ($scope, surveys) {
+/*
+surveyApp.controller('SurveyListController', function ($scope, surveys) {
 	    surveys.get().then(function(data){
 	    	$scope.surveys  = data;
 	    });
 
 	    $scope.delete = function(index){
 	      surveys.delete($scope.surveys[index]);
-	      console.log($scope.surveys.splice(index,1));
 	    }
 });
+*/
 
+/*
 surveyApp.controller('SurveyController', function($scope, $routeParams, $location, surveys){
 	var surveyId = +$routeParams.id ;
 	
 	surveys.getById(surveyId)
 		.then(function(survey){
-			console.log(survey);
 			$scope.survey = survey;
 		});			
 	
@@ -35,3 +35,4 @@ surveyApp.controller('SurveyController', function($scope, $routeParams, $locatio
 		$location.path('/surveys');
 	}
 })
+*/

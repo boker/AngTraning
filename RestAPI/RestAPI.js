@@ -18,7 +18,7 @@ function appendOKHeaders(res){
 	    	'Content-Type':'application/json',
 	        "access-control-allow-origin": "*",
 	        "access-control-allow-methods": "GET, POST, PUT, DELETE, OPTIONS",
-	        "access-control-allow-headers": "content-type, accept",
+	        "access-control-allow-headers": "*",
 	        "access-control-max-age": 10//, // Seconds.
 	        //"content-length": 0
 	    }
@@ -103,7 +103,7 @@ var server = http.createServer(function(req, res){
             {
                 "access-control-allow-origin": origin,
                 "access-control-allow-methods": "GET, POST, PUT, DELETE, OPTIONS",
-                "access-control-allow-headers": "content-type, accept",
+                "access-control-allow-headers": "content-type, accept, testHeader",
                 "access-control-max-age": 10, // Seconds.
                 "content-length": 0
             }

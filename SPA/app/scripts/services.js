@@ -1,9 +1,8 @@
+/*
 surveyApp.service('surveys',function($http, $q){
 		this.get = function(){
 			return $http.get('http://localhost:9000/surveys')
 				.then(function(response){
-					console.log(response.data);
-					console.log('getting executed!')
 					return response.data;
 				});
 		};
@@ -28,3 +27,4 @@ surveyApp.service('surveys',function($http, $q){
 		};
 	}
 );
+*/
