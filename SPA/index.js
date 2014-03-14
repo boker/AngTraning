@@ -12,4 +12,4 @@ server.use(function(req, res, next) {
 
 console.log(server);
 
-server.listen(8080);
+server.listen(process.argv[2]);
